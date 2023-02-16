@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FICHIERS CSS -->
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/style.css">
+
+    <!-- LIEN ICONOIR -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@main/css/iconoir.css">
+
+    <!-- POLICE ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+    <title>Thibault TINTILLIER - Développeur Web</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <img class="header__homeImage" src="public/images/photo-home.jpg" alt="Photo accueil - Hall d'aéroport">
+        <div class="header__title">
+            <div class="header__title-identity">
+                <div class="header__title-identity-line"></div>
+                <h2 class="header__title-identity-name">Thibault TINTILLIER</h2>
+                <div class="header__title-identity-line"></div>
+            </div>
+            <h1 class="header__title-job">Développeur web</h1>
+        </div>
+    </header>
+
+    <div class="burger">
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+        <div class="burger__line"></div>
+    </div>
+
+    <nav class="nav" id="nav">
+        <ul class="nav__list" id="nav__list">
+            <li class="nav__list-entry"><a href="#about-me">A propos de moi</a></li>
+            <li class="nav__list-entry"><a href="#skills">Compétences</a></li>
+            <li class="nav__list-entry"><a href="#background">Expériences</a></li>
+            <li class="nav__list-entry"><a href="#project">Projets</a></li>
+            <li class="nav__list-entry"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-me">
+        <h3 class="about-me__title section-title" id="about-me">A propos de moi</h3>
+
+        <div class="about-me__parts">
+            <div class="about-me__parts-left">
+                <img class="about-me__parts-left-image" src="./public/images/photoPerso.JPG" alt="photo Thibault TINTILLIER">
+                <!-- <div class="about-me__parts-left-image"></div> -->
+                <ul class="about-me__parts-left-quality">
+                    <ul>
+                        <li>Volontaire</li>
+                        <li>Indépendant</li>
+                    </ul>
+                    <ul>
+                        <li>Adaptatif</li>
+                        <li>Polyvalent</li>
+                    </ul>
+                </ul>
+            </div>
+
+            <div class="about-me__parts-right">
+                <div class="about-me__parts-right-past">
+                    <p class="about-me__parts-right-past-text">Après quelques années en tant contrôleur de projet, j’avais besoin de trouver un travail où je pourrai exprimer ma créativité.</p>    
+
+                    <!-- Début de la flèche -->
+                    <div class="about-me__parts-right-past-forms"></div>
+                </div>
+                
+                <div class="about-me__parts-right-present">
+                    <p class="about-me__parts-right-present-text">Une affinité avec le numérique m’a conduit vers le code et notamment vers le développement web qui a su répondre à mes besoins créatifs.</p>
+                    
+                    <!-- Milieu de la flèche -->
+                    <div class="about-me__parts-right-present-forms"></div>
+
+                </div>
+
+                <div class="about-me__parts-right-future">
+                    <p class="about-me__parts-right-future-text">Après une formation chez O’Clock, je me plonge dans cette nouvelle aventure du développement web !</p>
+                
+                    <!-- Fin de la flèche -->
+                    <div class="about-me__parts-right-future-forms"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-me__hobbies">
+            <div class="about-me__hobbies-heart icon">
+                <i class="iconoir-heart"></i>
+                <span class="about-me__hobbies-heart-legend iconLegend">Mes loisirs</span>
+            </div>
+
+            <div class="about-me__hobbies-icons">
+                <div class="about-me__hobbies-icons-game icon">
+                    <a href="https://chevaliers-table-raz.fr" target="_blank"><i class="iconoir-hexagon-dice"></i></a>
+                    <span class="about-me__hobbies-icons-game-legend iconLegend">Jeux de société</span>
+                </div>
+                <div class="about-me__hobbies-icons-videoGame icon">
+                    <i class="iconoir-gamepad"></i>
+                    <span class="about-me__hobbies-icons-videoGame-legend iconLegend">Jeux vidéos</span>
+                </div>
+                <div class="about-me__hobbies-icons-photo icon">
+                    <a href="https://www.instagram.com/yackiphoto" target="_blank"><i class="iconoir-camera"></i></a>
+                    <span class="about-me__hobbies-icons-photo-legend iconLegend">Photographie</span>
+                </div>
+                <div class="about-me__hobbies-icons-writing icon">
+                    <i class="iconoir-edit-pencil"></i>
+                    <span class="about-me__hobbies-icons-writing-legend iconLegend">Ecriture</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h3 class="skills__title section-title" id="skills">Compétences</h3>
+        <div class="skills__parts">
+            <div class="skills__parts-front">
+                <h4 class="skills__parts-front-title">Développeur Front</h4>
+                <div class="skills__parts-front-list">
+                    <h5 class="skills__parts-front-list-subtitle">Langages et frameworks</h5>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>ejs</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <h5 class="skills__parts-front-list-subtitle">Outils</h5>
+                    <ul>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skills__parts-back">
+                <h4 class="skills__parts-back-title">Développeur Back</h4>
+                <div class="skills__parts-back-list">
+                    <h5 class="skills__parts-front-list-subtitle">Langages et frameworks</h5>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Express</li>
+                        <li>SQL</li>
+                        <li>Sequelize</li>
+                        <li>MongoDB</li>
+                        <li>GraphQL</li>
+                        <li>Socket.io</li>
+                    </ul>
+
+                    <h5 class="skills__parts-back-list-subtitle">Outils</h5>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>PGAdmin</li>
+                        <li>PostGreSQL</li>
+                        <li>Sqitch</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="skills__parts-transversal">
+                <h4 class="skills__parts-transversal-title">Transversales</h4>
+                <div class="skills__parts-transversal-list">
+                    <h5 class="skills__parts-transversal-list-subtitle">Gestion de projet</h5>
+                    <ul>
+                        <li>Contrôle de projet</li>
+                        <li>Gestion de projet</li>
+                        <li>Management agile</li>
+                        <li>Management visuel</li>
+                        <li>Contrôle de budget</li>
+                    </ul>
+
+                    <h5 class="skills__parts-transversal-list-subtitle">Outils</h5>
+                    <ul>
+                        <li>Git / Github</li>
+                        <li>VS Code</li>
+                        <li>Joi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="background">
+        <h3 class="background__title section-title" id="background">Expériences</h3>
+        <div class="background__chemistry">
+            <p class="background__chemistry-text">Après une école d'ingénieur de chimie qui m'a appris à conceptualiser, à prendre du recul et à réaliser mes idées, je commençais ma carrière professionnelle par une thèse en chimie pharmaceutique, entre synthèse organique, modélisation moléculaire et biologie. De cet expérience, j'en ai tiré un amour pour la gestion de projet et des interactions pluridisciplinaires.</p>
+            <figure class="background__chemistry-image figure">
+                <img src="./public/images/photo-chemistry.jpg" alt="Photo de verrerie de chimie">
+                <figcaption class="background__chemistry-legend">Photo réalisée par olia danilevich</figcaption>
+            </figure>
+        </div>
+        <div class="background__project">
+            <p class="background__project-text-before">Après ma thèse, j'ai continué dans la gestion de projet par l'intermédiaire du contrôle de projet et de la planification. Mes différentes missions en tant que prestataires m'ont amené à travailler autant sur des arrêts techniques en usine que dans des bureaux d'études de travaux neufs. Grâce à ce métier, je continuai à me trouver à l'interface et à m'intéresser à plusieurs domaines.</p>
+            <figure class="background__project-image figure">
+                <img src="./public/images/photo-project.jpg" alt="Photo d'une réunion">
+                <figcaption class="background__project-legend">Photo réalisée par fauxels</figcaption>
+            </figure>
+            <p class="background__project-text-after">Après ma thèse, j'ai continué dans la gestion de projet par l'intermédiaire du contrôle de projet et de la planification. Mes différentes missions en tant que prestataires m'ont amené à travailler autant sur des arrêts techniques en usine que dans des bureaux d'études de travaux neufs. Grâce à ce métier, je continuai à me trouver à l'interface et à m'intéresser à plusieurs domaines.</p>
+        </div>
+        <div class="background__IT">
+            <p class="background__IT-text">Après plusieurs années en tant que contrôleur de projet, j'ai décidé de faire une pause pour réfléchir à mon avenir. J'en ai profité pour assouvir une de mes passions, l'écriture et ai commencé l'écriture d'un roman. <br><br> 
+                En parallèle, mon avenir se dessinait sur une reconversion dans l'informatique, domaine qui m'a suivi comme un fil rouge dans mes anciens projets personnels, mes études ou encore ma carrière. J'ai donc réalisé une formation de 5 mois avec l'école O'Clock qui m'a permis d'acquérir aussi bien des compétences en frontend qu'en backend.</p>
+            <figure class="background__IT-image figure">
+                <img src="./public/images/photo-computing.jpg" alt="Photo d'un PC">
+                <figcaption class="background__IT-legend">Photo réalisée par Kevin Ku</figcaption>
+            </figure>
+            
+
+        </div>
+    </section>
+
+    <section class="project">
+        <h3 class="project__title section-title" id="project">Mes projets</h3>
+        <div class="project__list">
+            <a class="project__list-link" href="https://github.com/ThibaultTintillier/chatWebSocket" target="_blank">
+                <img class="project__list-link-image" src="./public/images/ChatPerso.PNG" alt="Projet Logiciel de discussion">
+                <div class="project__list-link-text">
+                    <h4 class="project__list-link-text-title">Fenêtre de discussion en direct</h4>
+                    <ul class="project__list-link-text-skills">
+                        <li>JavaScript</li>
+                        <li>Socket.io</li>
+                    </ul>
+                </div>
+
+            </a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h3 class="contact__title section-title" id="contact">Contact</h3>
+        <div class="contact__parts">
+            <div class="contact__personalInformation">
+                <div class="contact__personalInformation-network">
+                    <div class="contact__personalInformation-network-socials">
+                        <a href="https://www.linkedin.com/in/thibault-tintillier/" target="_blank"><i class="iconoir-linkedin"></i></a>
+                        <a href="https://github.com/ThibaultTintillier" target="_blank"><i class="iconoir-github"></i></a>
+                        <a href="https://www.instagram.com/yackiphoto" target="_blank"><i class="iconoir-instagram"></i></a>
+                    </div>
+                    
+                    <a class="contact__personalInformation-network-CV" href="./data/CV Thibault TINTILLIER - Développeur web.pdf" download="CV_Thibault_TINTILLIER_-_Développeur_web.pdf">
+                        <span class="contact__personalInformation-network-CV-text">CV</span>
+                        <i class="iconoir-download-circle"></i>
+                    </a>
+                </div>
+                <iframe class="contact__personalInformation-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126157.25422386141!2d4.938918981701539!3d45.67676574788804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4d1625332ff37%3A0x400d520ff5ee58e1!2s38790%20Di%C3%A9moz!5e0!3m2!1sfr!2sfr!4v1674912805305!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact__message">
+                <h4 class="contact__message-title">Me contacter ?</h4>
+                <div class="contact__message-phone">
+                    <i class="contact__message-phone-icon iconoir-phone"></i>
+                    <span class="contact__message-phone-text">06.84.57.08.65</span>
+                </div>
+                <div class="contact__message-mail">
+                    <i class="contact__message-mail-icon iconoir-mail"></i>
+                    <span class="contact__message-mail-text">thibault.tintillier@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">Thibault Tintillier - 2023</footer>
+
+    <script src="./public/js/app.js"></script>
+
+</body>
+
+</html>
