@@ -13,7 +13,7 @@ body {
 }
 
 .section-title {
-    width: 300px;
+    width: max-content;
     padding: 40px 0 60px 0;
     font-size: 4rem;
     font-weight: 700;
@@ -802,5 +802,6 @@ section {
 
     .section-title {
         font-size: 3rem;
+        max-width: 300px;
     }
 }
