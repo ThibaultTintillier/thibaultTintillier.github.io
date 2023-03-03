@@ -409,6 +409,7 @@ section {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    text-shadow: black 0.5px 0.5px 0.5px;
     color: var(--color-cloud-grey);
 }
 
@@ -416,6 +417,7 @@ section {
     padding: 20px;
     font-size: 1.5rem;
     font-weight: 700;
+    text-shadow: black 1px 0.5px 0.5px;
     color: var(--color-grey-blue);
 }
 
@@ -423,6 +425,7 @@ section {
     margin-bottom: 10px;
     font-size: 1.2rem;
     font-weight: 600;
+    text-shadow: black 0.8px 0.4px 0.5px;
     text-align: center;
     color: var(--color-blue);
 }
